@@ -73,7 +73,7 @@ module Jekyll
     SITEMAP_FILE_NAME = "sitemap.xml"
     CHANGE_FREQUENCY_NAME = "change_frequency"
     PRIORITY_NAME = "priority"
-    EXCLUDE = ["atom.xml", "feed.xml", "feed/index.xml"]
+    EXCLUDE = ["/atom.xml", "/feed.xml", "/feed/index.xml"]
     INCLUDE_POSTS = ["index.html"] 
 
     # Valid values allowed by sitemap.xml spec for change frequencies
